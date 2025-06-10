@@ -9,7 +9,7 @@ chikenuwu: https://github.com/IsaacSohn/Sechify
 
 Mrbeastify: https://github.com/MagicJinn/MrBeastify-Youtube
 
-Denzhha24: https://github.com/DenzHa24/kumify
+Denzha24: https://github.com/DenzHa24/kumify
 
 If anybody wants to help add images to Mailify. (You’ll be credited of course) please send 1280x720 transparent Mai PNGs to the following email matthewlorenz@protonmail.com any help is appreciated!
 

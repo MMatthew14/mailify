@@ -1,13 +1,15 @@
-# Kumify
-A chrome extension that makes every thumbnail on youtube have kumiko!
+# Mailify
+A chrome extension that makes every thumbnail on youtube have Mai Sakurajima on it!
 
-I got inspired by chikenuwu and mrBeastify
-this was just forked from chikenuwu's implementation
-HUGE THANKS TO HIM
+Inspired by chikenuwu, mrBeastify and DenzHa24
+HUGE THANKS TO CHIKENUWU AND DENZHA24 FOR THE INSPIRATION!
+
 
 chikenuwu: https://github.com/IsaacSohn/Sechify 
 
 Mrbeastify: https://github.com/MagicJinn/MrBeastify-Youtube
 
-If anybody wants to help add images to kumify. (You’ll be credited of course) please send 1280x720 transparent Kumiko PNGs to the following email dyingisbad@gmail.com any help is appreciated!
+Denzhha24: https://github.com/DenzHa24/kumify
+
+If anybody wants to help add images to Mailify. (You’ll be credited of course) please send 1280x720 transparent Mai PNGs to the following email matthewlorenz@protonmail.com any help is appreciated!
 

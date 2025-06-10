@@ -1,12 +1,12 @@
 {
   "_comment": "this is p much the base stuff",
   "manifest_version": 3,
-  "name": "Kumify",
+  "name": "Mailify",
   "version": "1.2.0",
   "icons": {
-    "128": "assets/icon/IconKumiko.png"
+    "128": "assets/icon/iconSakurajimaMai.png"
   },
-  "description": "Make every YouTube Thumbnail into Kumiko!",
+  "description": "Make every YouTube Thumbnail into Sakurajima Mai!",
   "host_permissions": ["https://www.youtube.com/*"],
   "permissions": [
     "storage"

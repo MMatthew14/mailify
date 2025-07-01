@@ -1,5 +1,5 @@
 (() => {
-  const numImages = 27;
+  const numImages = 25;
 
   // See whether overlays are even enabled
   chrome.storage.local.get(['overlayEnabled'], (result) => {
@@ -36,10 +36,10 @@
       overlay.style.width = overlay.style.height = '100%';
       overlay.style.zIndex = '0';
       overlay.style.opacity = opacity; // Apply the opacity here
-      overlay.style.objectFit = 'cover'; // Ensure image covers the area properly
+     
       // Overlay is appended as a child of the original image's parent element (the thing we did query select), making it go on top
       thumbnail.parentElement.appendChild(overlay);
-      thumbnail.dataset.overlayApplied = 'true';
+      thumbnail.dataset.overlayApplied = "true"; // Mark this thumbnail as having an overlay applied
     }
 
     // Get random image index
@@ -48,8 +48,10 @@
     }
 
     // Get URL of the overlay image
-    function getOverlayUrl(index) {     
-      return chrome.runtime.getURL(`assets/images/${index}.PNG`);
+    function getOverlayUrl(index) {  
+      const imageName =
+      String(index).padStart(2, '0');
+      return chrome.runtime.getURL(`assets/images/${imageName}.png`);
     }
 
     // Observe the entire body of the document for changes
